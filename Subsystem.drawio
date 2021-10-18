@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2021-10-17T12:33:28.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Wj4hCvbgtc9EYpOVYcS5" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T11:32:56.942Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4542.2 Safari/537.36" etag="DnGbm_LtRdmBw9iGx7qa" version="15.5.2" type="github">
   <diagram id="5NddHuYZriB6UYjIjvSt" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-1" target="ePGufwcPJ30vCjrsp7kE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-1" value="Outer::init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-2" target="ePGufwcPJ30vCjrsp7kE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-2" value="Outer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17" y="305" width="134" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-6" target="ePGufwcPJ30vCjrsp7kE-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959.85009765625" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-6" value="OuterSubsystemCollection.Initialize(this);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="315" width="289" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-9" target="ePGufwcPJ30vCjrsp7kE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-9" value="FSubsystemCollectionBase::Initialize" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="56" y="469.87" width="264" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-10" value="获取对应的所有继承的子类，判断shouldcreatesubsystem，将其添加到map内存储并初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="383" y="466" width="194" height="66.25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
