@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T11:32:56.942Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4542.2 Safari/537.36" etag="DnGbm_LtRdmBw9iGx7qa" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T12:30:33.301Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4542.2 Safari/537.36" etag="tqtRZKQTTIjM_TfYqyhe" version="15.5.2" type="github">
   <diagram id="5NddHuYZriB6UYjIjvSt" name="Page-1">
     <mxGraphModel dx="1202" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,28 +10,57 @@
         <mxCell id="ePGufwcPJ30vCjrsp7kE-1" value="Outer::init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="315" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ePGufwcPJ30vCjrsp7kE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-2" target="ePGufwcPJ30vCjrsp7kE-1">
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-6" target="ePGufwcPJ30vCjrsp7kE-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ePGufwcPJ30vCjrsp7kE-2" value="Outer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="17" y="305" width="134" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ePGufwcPJ30vCjrsp7kE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-6" target="ePGufwcPJ30vCjrsp7kE-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="959.85009765625" y="345" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ePGufwcPJ30vCjrsp7kE-6" value="OuterSubsystemCollection.Initialize(this);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="401" y="315" width="289" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="ePGufwcPJ30vCjrsp7kE-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-9" target="ePGufwcPJ30vCjrsp7kE-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ePGufwcPJ30vCjrsp7kE-9" value="FSubsystemCollectionBase::Initialize" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="56" y="469.87" width="264" height="58.5" as="geometry" />
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-6" value="SubsystemCollection.Initialize(this);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="315" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ePGufwcPJ30vCjrsp7kE-10" value="获取对应的所有继承的子类，判断shouldcreatesubsystem，将其添加到map内存储并初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="383" y="466" width="194" height="66.25" as="geometry" />
+          <mxGeometry x="640" y="311.88" width="194" height="66.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-21" target="ePGufwcPJ30vCjrsp7kE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-21" value="Outer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="33" y="319" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-22" value="SubsystemCollection" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ePGufwcPJ30vCjrsp7kE-21">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="ePGufwcPJ30vCjrsp7kE-28" target="ePGufwcPJ30vCjrsp7kE-30" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-28" value="Outer::Shutdown" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213" y="521.87" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-30" target="ePGufwcPJ30vCjrsp7kE-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="643.0359497070312" y="552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-30" value="SubsystemCollection.Deinitialize();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="521.87" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="ePGufwcPJ30vCjrsp7kE-35" target="ePGufwcPJ30vCjrsp7kE-28" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-35" value="Outer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="21" y="525.87" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-36" value="SubsystemCollection" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ePGufwcPJ30vCjrsp7kE-35">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ePGufwcPJ30vCjrsp7kE-39" target="ePGufwcPJ30vCjrsp7kE-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="802.3280029296875" y="552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-39" value="将存储结构中有关此类的置空" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625.9959497070313" y="521.87" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePGufwcPJ30vCjrsp7kE-41" value="GC将在下一帧发现其已经没有被引用到，将对其进行回收标记进行回收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="521.87" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
